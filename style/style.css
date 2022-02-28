@@ -70,11 +70,13 @@ body {
     align-items: center;
     column-gap: 3rem;
     justify-content: start;
+    
 }
 
 .menu-header {
    display: flex; 
    justify-content: center;
+   /* position: sticky; */
 
 }
 
@@ -108,7 +110,13 @@ body {
     font-size: 1.3rem;
     line-height: calc(13/16);
 }
-
+.sticky {
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.6) 35%, rgba(255,255,255,0) 100%);
+    top:0;
+    z-index: 100;
+}
 
 .menu-header__list {
     display: flex;
