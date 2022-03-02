@@ -143,6 +143,7 @@ body {
   .menu-header__link:focus{
     color: rgba(241, 98, 20, 1);
 }
+
 .main{
     flex: 1 0 auto;
 }
@@ -227,6 +228,11 @@ transition: .2s linear;
     background-color: rgba(0, 0, 0, 0.1);
 }
 /*============== article===================== */
+
+
+.main__container{
+    margin-bottom: clamp(5rem, 6%, 7rem);
+}
 .article-main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -373,11 +379,11 @@ justify-items: center;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-items: start;
-    margin-bottom: clamp(5rem, 6%, 15rem);
+    margin-bottom: clamp(7rem, 15%, 25rem);
 }
 .description__items {
     grid-column-start: 2;
-    margin-block: clamp(8rem, 6%, 16rem);
+    /* margin-block: clamp(8rem, 6%, 16rem); */
 
 }
 
@@ -426,7 +432,7 @@ margin-bottom: clamp(2rem, 6%, 10rem);
     border-radius: 3.75em 0px;
     padding: 4.37em 1.25em;
     box-shadow: .31em .94em 2.8em 0px rgba(0, 0, 0, 0.1);
-    margin-bottom: clamp(5rem, 6%, 10rem);
+    margin-bottom: clamp(3rem, 8%, 10rem);
 }
 
 .card-item__icon {
@@ -1096,5 +1102,4 @@ color: #f13514;
     grid-template-columns: 1fr;
 }
 }
-
 
